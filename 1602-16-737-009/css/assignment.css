@@ -1,0 +1,53 @@
+/*1602-16-737-009 Bhargava Sai*/
+body{
+	background-color: #9900ff;
+}
+header{
+  background-color: #6600cc;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  opacity: 0.3;
+  font-size: 60px;
+  font-weight: bold;
+}
+.container1{
+	height: 500px;
+	background-color: #6600cc ;
+	margin: 80px 140px 00px 160px;
+}
+.container2{
+	background-color: #ffffff ;
+	padding: 0px;
+	margin: 00px 140px 140px 160px;
+}
+.grid-container {
+	display: grid ;
+  grid-template-columns: auto auto ;
+  grid-template-rows: 200px 200px;
+  grid-gap: 00px;
+  background-color: #ffffff;
+  padding: 00px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.images{
+	margin-right: 15px;
+  float: left;
+  margin-left: 15px;
+  height: 100px;
+}
+#logo{
+	padding: 15px;
+}
+.button{
+	background-color:#6600cc;
+	border-color: #ffffff;
+	font-size: 20px;
+	margin-left: 43%;
+}
